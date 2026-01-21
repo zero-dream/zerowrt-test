@@ -33,7 +33,7 @@ jobs:
           source "$workflowPath/zerodream/init/init.sh"
           rm -rf "$workflowPath/"
           # --------------------------------------------------
-          source "$ZD_ScriptLibPath/hook.sh"
+          source "$ZD_LibPath/hook.sh"
           hook 'AutoUpdate/InitWorkflow'
 
       - name: Test
